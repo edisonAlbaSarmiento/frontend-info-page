@@ -4,17 +4,25 @@
       "title": "REVENUE",
       "price": "200.000",
       "percentageTablet": "60",
-      "priceTablet": "120.000",
+      "titleDescriptionRight": "120.000€",
       "percentageSmartphone": "40",
-      "priceSmartphone": "80.000€"
+      "titleDescriptionLef": "80.000€"
     },
     {
-      "title": "REVENUE",
-      "price": "200.000",
-      "percentageTablet": "60",
-      "priceTablet": "120.000",
-      "percentageSmartphone": "40",
-      "priceSmartphone": "80.000€"
+      "title": "IMPRESIONS",
+      "price": "50.000.000",
+      "percentageTablet": "40",
+      "titleDescriptionRight": "20.000.000",
+      "percentageSmartphone": "60",
+      "titleDescriptionLef": "30.000.000"
+    },
+    {
+      "title": "VISITS",
+      "price": "600.000.000",
+      "percentageTablet": "80",
+      "titleDescriptionRight": "480.000.000",
+      "percentageSmartphone": "20",
+      "titleDescriptionLef": "120.000.000"
     }
   ]
 }
