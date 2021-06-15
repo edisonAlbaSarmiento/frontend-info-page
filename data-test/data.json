@@ -1,0 +1,20 @@
+{
+  "dataCard": [
+    {
+      "title": "REVENUE",
+      "price": "200.000",
+      "percentageTablet": "60",
+      "priceTablet": "120.000",
+      "percentageSmartphone": "40",
+      "priceSmartphone": "80.000€"
+    },
+    {
+      "title": "REVENUE",
+      "price": "200.000",
+      "percentageTablet": "60",
+      "priceTablet": "120.000",
+      "percentageSmartphone": "40",
+      "priceSmartphone": "80.000€"
+    }
+  ]
+}

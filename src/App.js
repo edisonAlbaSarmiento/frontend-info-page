@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+import UserGetData from './service';
+
 function App() {
+  const myDataTest = UserGetData();
+  console.log('myDataTest', myDataTest);
   return (
     <div className="App">
       <header className="App-header">
