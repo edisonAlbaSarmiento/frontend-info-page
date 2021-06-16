@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import { ContentTempleate } from './style';
 
 const HomeTemplate = (props) => {
   return (
     <>
-      <div>{props.cardInfo}</div>
+      <ContentTempleate>{props.cardInfo}</ContentTempleate>
     </>
   );
 };
