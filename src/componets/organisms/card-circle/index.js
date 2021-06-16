@@ -47,6 +47,25 @@ function CardCircle() {
           </ContetText>
         </ContentFooterText>
       </ContentCardCircle>
+      <ContentCardCircle>
+        <CircleComponent />
+        <ContentFooterText>
+          <ContetText>
+            <div>Tablet</div>
+            <SubContentText>
+              <div>1</div>
+              <div>2</div>
+            </SubContentText>
+          </ContetText>
+          <ContetText>
+            <div>Smartphone</div>
+            <SubContentText>
+              <div>1</div>
+              <div>2</div>
+            </SubContentText>
+          </ContetText>
+        </ContentFooterText>
+      </ContentCardCircle>
     </>
   );
 }

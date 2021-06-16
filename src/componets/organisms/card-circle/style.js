@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContentCardCircle = styled.div`
   display: flex;
-  width: 20%;
+  flex: 1;
   background-color: green;
   flex-direction: column;
   margin: 2%;
@@ -10,13 +10,13 @@ export const ContentCardCircle = styled.div`
 
 export const ContentFooterText = styled.div`
   display: flex;
-  width: 100%;
+  flex: 100%;
   justify-content: space-around;
 `;
 
 export const ContetText = styled.div`
   background-color: yellow;
-  width: 30%;
+  flex: 1;
 `;
 
 export const SubContentText = styled.div`
