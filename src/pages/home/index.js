@@ -6,7 +6,6 @@ import { CardCircle } from '../../componets/organisms';
 
 function Home() {
   const myDataTest = UserGetData();
-  console.log('myDataTest', myDataTest);
   return (
     <div className="App">
       <header className="App-header"></header>
@@ -21,6 +20,10 @@ function Home() {
           <a href="https://github.com/edisonAlbaSarmiento">
             Github: Edison Alba
           </a>
+        </div>
+        <div>
+          Github:
+          <a href="https://github.com/edisonAlbaSarmiento">Edison Alba</a>
         </div>
         <div>
           <a href="mailto:hege@example.com">edi9708@hotmail.com</a>

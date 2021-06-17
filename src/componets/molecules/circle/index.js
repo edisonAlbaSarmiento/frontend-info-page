@@ -1,5 +1,6 @@
 import { ContentCircle } from './style';
 import GraphicsComponet from '../graphics';
+// import { Progress } from 'antd';
 
 function CircleComponent() {
   return (
@@ -15,6 +16,7 @@ function CircleComponent() {
 
         <div class="inside-circle">70%</div>
       </div>
+
       <GraphicsComponet />
     </ContentCircle>
   );

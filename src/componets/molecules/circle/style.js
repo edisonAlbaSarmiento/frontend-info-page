@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ContentCircle = styled.div`
   margin: 50px auto;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   background: #e6e2e7;
   border-radius: 50%;
   .circle-wrap .circle .mask,
