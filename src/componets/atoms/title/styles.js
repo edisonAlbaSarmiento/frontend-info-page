@@ -11,7 +11,7 @@ export const Title = styled.p`
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   @media (max-width: 768px) {
     font-size: ${(props) =>
-      (props.variant === 'title' && '34px') ||
-      (props.variant === 'subtitle' && '16px')};
+      (props.variant === 'title' && '15px') ||
+      (props.variant === 'subtitle' && '9px')};
   }
 `;

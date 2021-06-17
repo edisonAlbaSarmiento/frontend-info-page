@@ -11,7 +11,9 @@ function Home() {
     <div className="App">
       <header className="App-header"></header>
       <body>
-        <HomeTemplate cardInfo={<CardCircle dataCard={myDataTest} />} />
+        <HomeTemplate
+          cardInfo={<CardCircle dataCard={myDataTest.dataCard} />}
+        />
       </body>
       <footer className="footer">
         <div>

@@ -16,7 +16,7 @@ const TitleComponet = (props) => {
 };
 
 TitleComponet.defaultProps = {
-  color: '#7bf5b1',
+  color: '#466623',
   marginText: '0px',
 };
 
