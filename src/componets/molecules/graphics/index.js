@@ -10,11 +10,20 @@ const GraphicsComponet = () => {
       percentage: 60,
     },
     {
+      percentage: 10,
+    },
+    {
+      percentage: 80,
+    },
+    {
       percentage: 40,
+    },
+    {
+      percentage: 30,
     },
   ];
   return (
-    <div style={{ width: '100%', height: 100 }}>
+    <div style={{ width: '88%', height: 54, marginLeft: '15%' }}>
       <ResponsiveContainer>
         <AreaChart
           data={data}

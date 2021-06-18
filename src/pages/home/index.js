@@ -14,21 +14,6 @@ function Home() {
           cardInfo={<CardCircle dataCard={myDataTest.dataCard} />}
         />
       </body>
-      <footer className="footer">
-        <div>
-          Author: Edison Alba
-          <a href="https://github.com/edisonAlbaSarmiento">
-            Github: Edison Alba
-          </a>
-        </div>
-        <div>
-          Github:
-          <a href="https://github.com/edisonAlbaSarmiento">Edison Alba</a>
-        </div>
-        <div>
-          <a href="mailto:hege@example.com">edi9708@hotmail.com</a>
-        </div>
-      </footer>
     </div>
   );
 }

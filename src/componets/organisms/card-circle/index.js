@@ -16,7 +16,7 @@ function CardCircle({ dataCard }) {
         dataCard.length > 0 &&
         dataCard.map((itemCard, index) => (
           <ContentCardCircle key={index}>
-            <CircleComponent />
+            <CircleComponent dataInfo={itemCard} />
             <ContentFooterText>
               <ContetText>
                 <div style={{ textAlign: 'left' }}>
