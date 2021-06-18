@@ -9,11 +9,7 @@ function Home() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <body>
-        <HomeTemplate
-          cardInfo={<CardCircle dataCard={myDataTest.dataCard} />}
-        />
-      </body>
+      <HomeTemplate cardInfo={<CardCircle dataCard={myDataTest.dataCard} />} />
     </div>
   );
 }

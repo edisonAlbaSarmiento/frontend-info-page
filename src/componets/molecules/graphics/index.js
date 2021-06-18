@@ -1,35 +1,41 @@
 import React from 'react';
 import { AreaChart, Area, ResponsiveContainer } from 'recharts';
 
-const GraphicsComponet = () => {
+const GraphicsComponet = ({ dataInfo }) => {
+  console.log('useTheme', dataInfo);
   const data = [
-    {
-      percentage: 100,
-    },
-    {
-      percentage: 60,
-    },
-    {
-      percentage: 10,
-    },
-    {
-      percentage: 80,
-    },
-    {
-      percentage: 40,
-    },
-    {
-      percentage: 30,
-    },
+    { percentage: 10 },
+    { percentage: 50 },
+    { percentage: 63 },
+    { percentage: 60 },
+    { percentage: 40 },
+    { percentage: 40 },
+    { percentage: 89 },
+    { percentage: 75 },
+    { percentage: 100 },
+    { percentage: 10 },
+    { percentage: 50 },
+    { percentage: 63 },
+    { percentage: 89 },
+    { percentage: 75 },
+    { percentage: 100 },
+    { percentage: 60 },
+    { percentage: 40 },
+    { percentage: 40 },
   ];
   return (
-    <div style={{ width: '88%', height: 54, marginLeft: '15%' }}>
+    <div
+      style={{
+        width: '100%',
+        height: 48,
+      }}
+    >
       <ResponsiveContainer>
         <AreaChart
           data={data}
           margin={{
-            top: 10,
-            right: 30,
+            top: 0,
+            right: 0,
             left: 0,
             bottom: 0,
           }}
@@ -37,8 +43,16 @@ const GraphicsComponet = () => {
           <Area
             type="monotone"
             dataKey="percentage"
-            stroke="#8884d8"
-            fill="#8884d8"
+            stroke={
+              (dataInfo.title === 'REVENUE' && '#9BD05D') ||
+              (dataInfo.title === 'IMPRESIONS' && '#86C6E0') ||
+              (dataInfo.title === 'VISITS' && '#E6C44C')
+            }
+            fill={
+              (dataInfo.title === 'REVENUE' && '#9BD05D66') ||
+              (dataInfo.title === 'IMPRESIONS' && '#86C6E066') ||
+              (dataInfo.title === 'VISITS' && '#E6C44C66')
+            }
           />
         </AreaChart>
       </ResponsiveContainer>

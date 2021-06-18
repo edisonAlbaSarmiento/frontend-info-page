@@ -1,15 +1,16 @@
 import { TitleComponet } from '../../atoms';
 
-// import GraphicsComponet from '../graphics';
+import GraphicsComponet from '../graphics';
 import {
   CircularProgressbarWithChildren,
   buildStyles,
 } from 'react-circular-progressbar';
-import { ContentCircle, ContentTitles } from './style';
-import theme from '../../../themes';
+import { ContentCircle, ContentChildren, ContentTitles } from './style';
+import { useTheme } from 'styled-components';
 
 function CircleComponent({ dataInfo }) {
   const percentage = parseInt(dataInfo.percentageSmartphone);
+  const theme = useTheme();
 
   return (
     <ContentCircle>
@@ -49,11 +50,10 @@ function CircleComponent({ dataInfo }) {
               ? `${dataInfo.price}€`
               : dataInfo.price}
           </TitleComponet>
+          <ContentChildren>
+            <GraphicsComponet dataInfo={dataInfo} />
+          </ContentChildren>
         </ContentTitles>
-
-        {/* <ContentChildren>
-          <GraphicsComponet />
-        </ContentChildren> */}
       </CircularProgressbarWithChildren>
     </ContentCircle>
   );
