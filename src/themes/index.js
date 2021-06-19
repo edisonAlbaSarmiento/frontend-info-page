@@ -9,6 +9,7 @@ const theme = {
     grayBold: '#898989',
     gray: '#CCCCCC',
     black: '#4C4C4C',
+    white: '#fff',
   },
   padding: {
     paddingSmall: '3.3%',

@@ -9,4 +9,7 @@ export const Title = styled.p`
   margin: ${(props) => props.marginText};
   line-height: 1;
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
 `;

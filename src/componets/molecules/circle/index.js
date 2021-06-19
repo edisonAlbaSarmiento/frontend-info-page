@@ -17,7 +17,7 @@ function CircleComponent({ dataInfo }) {
       <CircularProgressbarWithChildren
         value={percentage}
         // text={`${percentage}%`}
-        strokeWidth={5}
+        strokeWidth={3}
         styles={buildStyles({
           textColor: 'red',
           pathColor: `${

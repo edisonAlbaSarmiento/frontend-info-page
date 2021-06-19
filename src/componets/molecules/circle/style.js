@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContentCircle = styled.div`
   margin: 50px auto;
-  width: 50%;
+  width: 40%;
   background: white;
 `;
 
