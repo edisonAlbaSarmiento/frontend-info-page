@@ -7,7 +7,7 @@ import { CardCircle } from '../../componets/organisms';
 function Home() {
   const myDataTest = UserGetData();
   return (
-    <div className="App">
+    <div>
       <header className="App-header"></header>
       <HomeTemplate cardInfo={<CardCircle dataCard={myDataTest.dataCard} />} />
     </div>
