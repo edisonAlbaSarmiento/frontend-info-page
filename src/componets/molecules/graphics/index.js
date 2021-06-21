@@ -2,7 +2,6 @@ import React from 'react';
 import { AreaChart, Area, ResponsiveContainer } from 'recharts';
 
 const GraphicsComponet = ({ dataInfo }) => {
-  console.log('useTheme', dataInfo);
   const data = [
     { percentage: 10 },
     { percentage: 50 },
