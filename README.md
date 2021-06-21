@@ -8,6 +8,12 @@ In the project directory, run to install the dependencies for the first time:
 
 ### `yarn`
 
+## Validate deploy
+
+Validate project deploy in github pages
+
+Open [https://edisonalbasarmiento.github.io/frontend-info-page/](https://edisonalbasarmiento.github.io/frontend-info-page/) to view it in the browser.
+ 
 
 ## Available Scripts
 
