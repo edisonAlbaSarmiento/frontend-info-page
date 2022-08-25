@@ -3,9 +3,9 @@
     {
       "title": "REVENUE",
       "price": "200.000",
-      "percentageTablet": "10",
+      "percentageTablet": "90",
       "titleDescriptionRight": "120.000€",
-      "percentageSmartphone": "100",
+      "percentageSmartphone": "10",
       "titleDescriptionLef": "80.000€"
     },
     {
